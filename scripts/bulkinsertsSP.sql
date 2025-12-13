@@ -5,6 +5,10 @@ This is a stored procedure for the BULK INSERTs
 
 */
 
+EXEC bronze.load_bronze
+	
+-- ^^^This is the SQL syntax for executing the SP after the SP has already been created.  Below 
+-- is the actual coding for creating the whole SP itself. 
 
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
 BEGIN
